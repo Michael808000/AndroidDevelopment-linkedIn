@@ -1,4 +1,4 @@
-package com.example.androiddevelopment_linkedin
+package com.example.androiddevelopment_linkedin.ui.main
 
 import androidx.lifecycle.ViewModel
 
