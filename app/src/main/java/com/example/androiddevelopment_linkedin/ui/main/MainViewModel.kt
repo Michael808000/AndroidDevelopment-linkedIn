@@ -13,15 +13,7 @@ import com.squareup.moshi.Types
 
 class MainViewModel(app:Application):AndroidViewModel(app) {
 
-    private val dataRepo =MonsterRepository()
-
-    init {
-//        val text1 = FileHelper.getTextFromResources(app,R.raw.monster_data)
-//        Log.i(LOG_TAG,text1)
-        val monsterData =dataRepo.getMonsterData(app)
-        for(monster in monsterData){
-            Log.i(LOG_TAG, "${monster.monsterName} (\$${monster.price})")
-        }
-    }
+    private val dataRepo =MonsterRepository(app)
+    val monsterData = dataRepo.monsterData
 
 }
