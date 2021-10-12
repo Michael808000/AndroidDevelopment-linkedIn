@@ -1,0 +1,2 @@
+com/example/androiddevelopment_linkedin/BuildConfig.java
+ com.example.androiddevelopment_linkedin.BuildConfig

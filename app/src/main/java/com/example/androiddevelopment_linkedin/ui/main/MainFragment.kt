@@ -23,7 +23,7 @@ class MainFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View {
         val monster = Monster(monsterName = "Bob",imageFile = "myFile",caption = "a caption",description = "Some description",price = 0.19, scariness = 3)
-        Log.i("monsterLogging", monster.toString())
+        //Log.i("monsterLogging", monster.toString())
         return inflater.inflate(R.layout.fragment_main, container, false)
     }
 
