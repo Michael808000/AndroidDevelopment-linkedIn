@@ -9,7 +9,7 @@ import com.example.androiddevelopment_linkedin.utilies.FileHelper
 class MainViewModel(app:Application):AndroidViewModel(app) {
     init {
         val text = FileHelper.getTextFromResources(app,R.raw.monster_data)
-        Log.i("monsterLogging",text.toString())
+        Log.i("monsterLogging",text)
     }
 
 }
