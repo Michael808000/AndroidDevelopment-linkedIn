@@ -30,6 +30,7 @@ class MainFragment : Fragment() {
                 monsterNames.append(monster.monsterName).append("\n")
             }
             message.text=monsterNames
+
         })
 
         return inflater.inflate(R.layout.fragment_main, container, false)
